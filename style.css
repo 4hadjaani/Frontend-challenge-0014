@@ -1,0 +1,40 @@
+   .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+body{
+     width:100%;
+     align-items: center;
+     justify-content:center;
+     margin:0 auto;
+     background: url(bg-mobile.svg);
+     background-color:hsl(257, 40%, 49%) ;
+     background-repeat: no-repeat;     }
+.wrapper{
+	width:375px;  
+	margin:0 auto; 
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	}
+.part_2 h2{ color: white; }
+.part_2 p{ color: #FFF1FF; }
+.part_2{ text-align: center;}
+button{ font-size:18px;
+        height: 50px;
+        width:200px;
+        margin-top: 50px ;
+       background-shadow: none;
+       border-radius:20px;
+        background: white;
+        color: hsl(257, 40%, 49%) ;
+       }
+button:active { background: hsl(300, 69%, 71%); }
+
+@media only screen and (min-width:576px){
+body{ background: url(bg-desktop.svg);
+      background-color:hsl(257, 40%, 49%);
+     background-repeat: no-repeat;      }  
+.wrapper{ width:1440px;
+          flex-direction: row; 
+          justify-content: center; }
+.part_1 {padding: 20px; }	
+	}
