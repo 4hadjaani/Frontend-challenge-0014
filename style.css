@@ -14,6 +14,7 @@ body{
 	display:flex;
 	flex-direction: column;
 	align-items: center;
+	font-size: 18px;
 	}
 .part_2 h2{ color: white; }
 .part_2 p{ color: #FFF1FF; }
@@ -34,7 +35,9 @@ body{ background: url(bg-desktop.svg);
       background-color:hsl(257, 40%, 49%);
      background-repeat: no-repeat;      }  
 .wrapper{ width:1440px;
-          flex-direction: row; 
+		  font-size: 20px;
+		 flex-direction: row; 
           justify-content: center; }
 .part_1 {padding: 20px; }	
+
 	}
